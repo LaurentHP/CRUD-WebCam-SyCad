@@ -1,0 +1,1 @@
+A CRUD system in C# that allows you to take a photo with your webcam to register in a Database with name, ID and phone number. SyCad is a open source software used to capture photo from the system webcam. It is developed using Emgu CV library.
