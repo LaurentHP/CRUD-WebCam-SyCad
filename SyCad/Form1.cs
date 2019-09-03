@@ -21,11 +21,6 @@ namespace SyCad
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtPesquisar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -168,16 +163,6 @@ namespace SyCad
             _streaming = !_streaming;
         }
 
-        private void txtPesquisar_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtTelefone_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void txtTelefone_Leave(object sender, EventArgs e)
         {
             txtTelefone.Text = AplicarMascaraTelefone(txtTelefone.Text);
@@ -275,14 +260,5 @@ namespace SyCad
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }
